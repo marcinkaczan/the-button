@@ -39,3 +39,8 @@ Masz dwie możliwości:
 🔹 4. Uruchom serwer
 `python manage.py runserver`
 
+## Bezpieczeństwo
+
+Zmiany w gałęzi master są chronione przez branch protection.
+Kod powinien trafiać do master przez Pull Request, po review i przejściu wymaganych kontroli.
+
