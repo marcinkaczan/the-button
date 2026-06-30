@@ -131,6 +131,7 @@ jobs:
           echo "Deployment to development environment completed!"
 
   deploy-to-production:
+    if: github.event_name != 'pull_request'
     needs: deploy-to-dev
     runs-on: ubuntu-latest
     environment: production
